@@ -1,6 +1,6 @@
 # Painel de Acompanhamento Escolar
 
-**Disciplina:** Projeto Integrado - Entregável Parcial 2  
+**Disciplina:** Projeto Integrado - Entregável Parcial 1  
 **Curso:** Análise e Desenvolvimento de Sistemas (UFCA)  
 **Estudantes:** Antonio Alex Dayson Tomaz e Maria Alexsandra Tomaz
 
@@ -200,6 +200,26 @@ Para testar nosso sistema, siga os passos abaixo no terminal:
 - **Python 3.12**
 - **SQLite**
 - **pytest**
+
+---
+
+## 👥 Contribuições da Equipe
+
+Para fins de avaliação, detalhamos abaixo a responsabilidade de cada membro no desenvolvimento deste projeto:
+
+### Antonio Alex Dayson Tomaz
+*   **Modelagem Estrutural e Interação de Objetos:** Responsável pela modelagem das classes e pela definição de como os objetos interagem entre si, garantindo a coesão do sistema. Desenvolveu o script de demonstração (`main.py`), que serve como evidência prática do funcionamento das classes e da colaboração entre os objetos.
+*   **Arquitetura e Suporte à Persistência:** Implementou a estrutura de infraestrutura necessária para que as classes do domínio pudessem persistir dados, organizando o projeto em camadas (Domain, Application, Infrastructure) para garantir a separação de responsabilidades.
+*   **Testes de Integração:** Desenvolveu a suíte de testes de integração, validando se o fluxo de dados entre as classes principais e a camada de armazenamento estava operando sem inconsistências.
+
+### Maria Alexsandra Tomaz
+*   **Implementação do Domínio e Princípios de POO:** Liderou o desenvolvimento das 7 classes principais no arquivo `models.py`. Focou na aplicação de encapsulamento e abstração, garantindo que cada classe possuísse validações robustas em seus construtores para manter a integridade dos dados.
+*   **Lógica de Aplicação e Serviços:** Responsável pela criação da camada de serviços (`services.py`), traduzindo as regras acadêmicas (cálculo de média ponderada, controle de frequência e situações de aprovação) em métodos funcionais dentro da arquitetura do sistema.
+*   **Documentação e Componente Extensionista:** Elaborou a documentação técnica do repositório e foi a principal responsável pela seção "Possíveis usos da nossa solução" no README.md, conectando o projeto técnico a cenários reais da comunidade. Também implementou os testes unitários de lógica.
+
+**Contatos:**
+*   Antonio Alex Dayson Tomaz: `alex.dayson@aluno.ufca.edu.br`
+*   Maria Alexsandra Tomaz: `alexsandra_tomaz@yahoo.com.br`
 
 ---
 *Este projeto foi desenvolvido para a disciplina de Projeto Integrado 2 do Curso de Análise e Desenvolvimento de Sistemas da UFCA.*
